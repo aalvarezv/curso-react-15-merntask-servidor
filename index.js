@@ -21,5 +21,5 @@ const port = process.env.PORT || 4000
 app.use(require('./routes/index'))
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(`El servidor está funcionando en el puerto ${PORT}`)
+    console.log(`El servidor está funcionando en el puerto ${port}`)
 })
